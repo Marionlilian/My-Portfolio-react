@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.dark-mode body {
+  background-color: #232320;
+  color: whitesmoke;
+}
+
