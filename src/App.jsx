@@ -10,6 +10,9 @@ import NotFound from './NotFound'
 import Contact from './Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+
+
+
 // import ThemeSwitcher from './components/ThemeSwitcher'
 
 function App() {
@@ -29,6 +32,7 @@ function App() {
         <Footer />
         {/* <ThemeSwitcher /> */}
       </BrowserRouter>
+   
     </>
   )
 }

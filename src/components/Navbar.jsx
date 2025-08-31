@@ -13,6 +13,7 @@ const Navbar=()=>{
         <Link to="/About" className="text-gray-700 dark:text-gray-300 hover:underline">About</Link>
         <Link to="/Projects" className="text-gray-700 dark:text-gray-300 hover:underline">Projects</Link>
          <Link to="/Contact" className="text-gray-700 dark:text-gray-300 hover:underline">Contact</Link>
+        <Link to="/" className="text-gray-700 dark:text-gray-300 hover:underline">Contact</Link>
         </div>
       <ThemeSwitcher/>
     </div>
