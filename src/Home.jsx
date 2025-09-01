@@ -1,24 +1,37 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import bg2 from './assets/images/bg-2.jpg'; 
+import RippleWord from './RippleWord';
 
 function Home() {
   return (
     <div>
-      <section class="text-gray-600 body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <section class="body-font bg-gradient-to-r from-primary to-accent my-0 mt-0">
+ 
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center mt-0">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-        <br class="hidden lg:inline-block"/>readymade gluten
+      <h1 class="title-font sm:text-3xl text-2xl mb-4 font-medium ">Hi, my name is Marion,
+        <br class="hidden lg:inline-block text-4xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-rose-500 bg-clip-text text-transparent"/>
       </h1>
-      <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+      <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-rose-500 bg-clip-text text-transparent"> A
+        <h1 className="text-3xl md:text-5xl font-extrabold text-purple-300">
+  <RippleWord word="CREATIVE" />
+</h1>
+Front-End Developer
+      </h1>
+ 
+      <p class="mb-8 leading-relaxed">Contact me for all your design needs — from concept to creation. Whether you're launching a brand, building a website, or refreshing your visual identity, I offer creative solutions tailored to your vision. With a strong focus on aesthetics, usability, and innovation, I ensure each design tells a story and leaves a lasting impression.</p>
+      <div class="flex justify-center mx-auto">
+        <button class="inline-flex text-white bg-rose-400 border-0 py-2 px-6 focus:outline-none hover:bg-pink-300 rounded text-lg">Contact Me</button>
+        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Download CV</button>
       </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-0">
+      <img
+  className="object-cover object-center rounded"
+  alt="hero"
+  src={bg2}
+/>
     </div>
   </div>
 </section>

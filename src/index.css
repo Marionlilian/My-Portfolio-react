@@ -1,11 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right, #3B2F2F, #6B21A8, #6B21A8, #FF00FF,#C71585,#F43F5E);
   transition: background-color 0.3s;
+  height: 100vh;
+
 }
 
 body,
@@ -14,7 +16,39 @@ html {
 }
 
 .dark-mode body {
-  background-color: #232320;
-  color: whitesmoke;
+  /* background-color: #232320; */
+  color: white;
+  background-image: linear-gradient(to right, #000000,#3B2F2F, #6B21A8);
 }
+img{
+  border-radius: 30% 70% 63% 37% / 30% 30% 70% 70% ;
+  height: 500px;
+  width: 600px;
+}
+.ripple-container{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.ripple-container::before{
+  position: absolute;
+  width: 0;
+  height: 0;
+  transform: translate(-50%, -50%);
+  animation: circle-ripple 2s infinite;
+}
+@keyframes circle-ripple {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0.7;
+  }
+100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+
 

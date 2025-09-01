@@ -1,0 +1,38 @@
+.ripple-word-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+}
+
+.ripple-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: rgba(255, 105, 180, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: circle-ripple 2s infinite ease-out;
+  z-index: -1;
+}
+
+.ripple-word {
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  z-index: 1;
+}
+
+@keyframes circle-ripple {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.6;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+}
