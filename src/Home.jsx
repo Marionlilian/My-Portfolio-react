@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom'
 import bg2 from './assets/images/bg-2.jpg'; 
 import RippleWord from './RippleWord';
 
+
 function Home() {
   return (
-    <div>
+    <div id='home'>
       <section class="body-font bg-gradient-to-r from-primary to-accent my-0 mt-0">
  
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center mt-0">
@@ -22,13 +23,13 @@ Front-End Developer
  
       <p class="mb-8 leading-relaxed">Contact me for all your design needs — from concept to creation. Whether you're launching a brand, building a website, or refreshing your visual identity, I offer creative solutions tailored to your vision. With a strong focus on aesthetics, usability, and innovation, I ensure each design tells a story and leaves a lasting impression.</p>
       <div class="flex justify-center mx-auto">
-        <button class="inline-flex text-white bg-rose-400 border-0 py-2 px-6 focus:outline-none hover:bg-pink-300 rounded text-lg">Contact Me</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Download CV</button>
+        <button class="inline-flex text-white bg-rose-400 border-0 py-2 px-6 focus:outline-none hover:bg-pink-300 rounded text-lg cursor-pointer">Contact Me</button>
+        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-pink-200 rounded text-lg cursor-pointer"> <a href="/Marion-CV.docx"> Download CV</a></button>
       </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-0">
+    <div class="styledimg lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-0">
       <img
-  className="object-cover object-center rounded"
+  className="styledimg object-cover object-center rounded"
   alt="hero"
   src={bg2}
 />

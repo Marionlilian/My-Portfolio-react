@@ -8,12 +8,12 @@ module.exports = {
    theme: {
     extend: {
       colors: {
-        primary: '#6366F1',     // indigo-500
-        darkPrimary: '#8B5CF6', // violet-500
-        accent: '#F43F5E',      // rose-500
-        darkAccent: '#FB7185',  // rose-400
-        lightBg: '#F9FAFB',     // gray-50
-        darkBg: '#111827',      // gray-900
+        primary: '#6366F1',     
+        darkPrimary: '#8B5CF6', 
+        accent: '#F43F5E',      
+        darkAccent: '#FB7185',  
+        lightBg: '#F9FAFB',     
+        darkBg: '#111827',      
         lightCard: '#FFFFFF',
         darkCard: '#1F2937',
       },

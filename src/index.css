@@ -20,7 +20,7 @@ html {
   color: white;
   background-image: linear-gradient(to right, #000000,#3B2F2F, #6B21A8);
 }
-img{
+.styledimg{
   border-radius: 30% 70% 63% 37% / 30% 30% 70% 70% ;
   height: 500px;
   width: 600px;
