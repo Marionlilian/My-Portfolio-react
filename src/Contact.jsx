@@ -71,6 +71,7 @@ function Contact() {
               </label>
               <input
                 type="text"
+                name='name'
                 placeholder="Enter your full name"
                 className="w-full border border-black bg-gray-100 px-4 py-2 rounded"
               />
@@ -82,6 +83,7 @@ function Contact() {
               </label>
               <input
                 type="email"
+                name='email'
                 placeholder="Enter your Email"
                 className="w-full border border-black bg-gray-100 px-4 py-2 rounded"
               />
@@ -93,6 +95,7 @@ function Contact() {
               </label>
               <textarea
                 placeholder="Message"
+                name='message'
                 rows="5"
                 className="w-full border border-black bg-gray-100 px-4 py-2 rounded resize-none"
               />
