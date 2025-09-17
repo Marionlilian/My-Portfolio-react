@@ -3,6 +3,28 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "5be85f3d-0cce-45f2-8a04-7dc922d1f0cf");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      alert(res.message);
+    }
+  };
   return (
     <div className="my-10" id='contact'>
       <h1 className="text-4xl font-extrabold bg-gradient-to-r from-purple-500 via-green-400 to-blue-500 bg-clip-text text-transparent text-center mb-6">
@@ -38,7 +60,11 @@ function Contact() {
 
     
         <div className="px-4 py-2 text-lg md:text-xl">
-          <form className="space-y-4">
+          <form action="https://api.web3forms.com/submit" method="POST"
+           className="space-y-4"
+          >
+ 
+            <input type="hidden" name="access_key" value="5be85f3d-0cce-45f2-8a04-7dc922d1f0cf" />
             <div>
               <label htmlFor="name" className="block mb-1 font-semibold">
                 Your Name
