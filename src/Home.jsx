@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import bg2 from './assets/images/bg-2.jpg'; 
+import bg2 from './assets/images/bg-2.jpg'; 
 import RippleWord from './RippleWord';
 
 
@@ -28,11 +28,11 @@ Front-End Developer
       </div>
     </div>
     <div class="styledimg lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-0">
-      {/* <img
+      <img
   className="styledimg object-cover object-center rounded"
   alt="hero"
   src={bg2}
-/> */}
+/>
     </div>
   </div>
 </section>
