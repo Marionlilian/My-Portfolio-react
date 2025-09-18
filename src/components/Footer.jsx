@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../assets/Images/devml.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 

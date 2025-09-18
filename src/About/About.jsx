@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import photo from '../assets/images/My-potrait.jpg';
+// import photo from '../assets/images/My-potrait.jpg';
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
             <img 
               className="styledimg object-cover object-center rounded" 
               alt="My portrait" 
-              src={photo} 
+              src='/My-potrait.jpg'
             />
           </div>
 

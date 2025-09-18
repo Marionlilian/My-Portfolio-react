@@ -1,31 +1,27 @@
 import React from "react";
-import photo1 from "./assets/images/TerraTrails.png";
-import photo2 from "./assets/images/FitMind screenshot.png";
-import photo3 from "./assets/images/JobConnect screenshot.png";
-import photo4 from "./assets/images/Calorie counter.png";
-
 const projects = [
   {
-    img: photo1,
+    img: "/TerraTrails.png",
     alt: "Screenshot of TerraTrails travel website",
     link: "https://marionlilian.github.io/TerraTrails/index.html",
   },
   {
-    img: photo2,
+    img: "/FitMind screenshot.png",
     alt: "Screenshot of FitMind tele-counseling app",
     link: "https://marionlilian.github.io/FitMind_Hub/index.html",
   },
   {
-    img: photo3,
+    img: "/JobConnect screenshot.png",
     alt: "Screenshot of JobConnect job board app",
     link: "https://marionlilian.github.io/JobConnect/Index.html",
   },
   {
-    img: photo4,
+    img: "/Calorie counter.png",
     alt: "Screenshot of Calorie Counter tracking app",
     link: "https://marionlilian.github.io/Calorie_counter/Index.html",
   },
 ];
+
 
 function Projects() {
   return (

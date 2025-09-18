@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink} from "react-router-dom";
 import ThemeSwitcher from './ThemeSwitcher'
-import devml from '../assets/images/devml.png'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
