@@ -23,7 +23,7 @@ Front-End Developer
  
       <p class="mb-8 leading-relaxed">Contact me for all your design needs — from concept to creation. Whether you're launching a brand, building a website, or refreshing your visual identity, I offer creative solutions tailored to your vision. With a strong focus on aesthetics, usability, and innovation, I ensure each design tells a story and leaves a lasting impression.</p>
       <div class="flex justify-center mx-auto">
-        <a href="/contact" class="inline-flex text-white bg-rose-400 border-0 py-2 px-6 
+        <a href="/Contact" class="inline-flex text-white bg-rose-400 border-0 py-2 px-6 
           focus:outline-none hover:bg-pink-300 rounded text-lg cursor-pointer">Contact Me </a>
 
         <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-pink-200 rounded text-lg cursor-pointer"> <a href="/Marion_CV_latest.pdf"> Download CV</a></button>
